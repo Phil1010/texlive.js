@@ -39,7 +39,7 @@ install-tl-unx.tar.gz:
 ./texlive: install-tl-unx.tar.gz
 	mkdir -p texlive
 	cd texlive && tar xzvf ../install-tl-unx.tar.gz
-	echo selected_scheme scheme-basic > texlive/profile.input
+	echo selected_scheme scheme-full > texlive/profile.input
 	echo TEXDIR `pwd`/texlive >> texlive/profile.input
 	echo TEXMFLOCAL `pwd`/texlive/texmf-local >> texlive/profile.input
 	echo TEXMFSYSVAR `pwd`/texlive/texmf-var >> texlive/profile.input
