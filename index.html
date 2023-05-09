@@ -52,30 +52,6 @@ Hello, LaTeX!
   </div>
 
   <script>
-    var packages = [
-      'amsfonts',
-      'amsmath',
-      'amssymb',
-      'amsthm',
-      'inputenc',
-      'fontenc',
-      'babel-french',
-      'fancybox',
-      'graphics',
-      'tikz',
-      'geometry'
-    ];
-
-    Promise.all(packages.map(texlive.installPackage))
-      .then(function () {
-        console.log('1111 Packages installed successfully');
-      })
-      .catch(function (error) {
-        console.error('2222 Error installing packages', error);
-      });
-
-
-
     var compile = function (source_code) {
       var pdftex = new PDFTeX();
       return pdftex.compile(source_code);
