@@ -26,6 +26,7 @@ Hello, LaTeX!
   <script>
     var compile = function (source_code) {
       var pdftex = new PDFTeX();
+      console.log(pdftex);
       return pdftex.compile(source_code);
     }
 
