@@ -52,19 +52,26 @@ Hello, LaTeX!
   </div>
 
   <script>
+    var packages = [
+      'amsfonts',
+      'amsmath',
+      'amssymb',
+      'amsthm',
+      'inputenc',
+      'fontenc',
+      'babel-french',
+      'fancybox',
+      'graphics',
+      'tikz',
+      'geometry'
+    ];
 
-    // Spécifiez le nom du package à installer
-    var packageName = 'fancybox';
-
-    // Installez le package en utilisant la méthode `installPackage` de `texlive.js`
-    texlive.installPackage(packageName)
+    Promise.all(packages.map(texlive.installPackage))
       .then(function () {
-        // Le package est installé avec succès
-        console.log('11111 Package installed: ' + packageName);
+        console.log('1111 Packages installed successfully');
       })
       .catch(function (error) {
-        // Une erreur s'est produite lors de l'installation du package
-        console.error('222222 Error installing package: ' + packageName, error);
+        console.error('2222 Error installing packages', error);
       });
 
 
