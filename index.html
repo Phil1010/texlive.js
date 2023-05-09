@@ -52,6 +52,23 @@ Hello, LaTeX!
   </div>
 
   <script>
+
+    // Spécifiez le nom du package à installer
+    var packageName = 'fancybox';
+
+    // Installez le package en utilisant la méthode `installPackage` de `texlive.js`
+    texlive.installPackage(packageName)
+      .then(function () {
+        // Le package est installé avec succès
+        console.log('11111 Package installed: ' + packageName);
+      })
+      .catch(function (error) {
+        // Une erreur s'est produite lors de l'installation du package
+        console.error('222222 Error installing package: ' + packageName, error);
+      });
+
+
+
     var compile = function (source_code) {
       var pdftex = new PDFTeX();
       return pdftex.compile(source_code);
