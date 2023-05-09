@@ -52,10 +52,27 @@ Hello, LaTeX!
   </div>
 
   <script>
+    var packages = [
+      'amsfonts',
+      'amsmath',
+      'amssymb',
+      'amsthm',
+      'inputenc',
+      'fontenc',
+      'babel-french',
+      'fancybox',
+      'graphicx',
+      'tikz',
+      'geometry'
+    ];
+
     var compile = function (source_code) {
       var pdftex = new PDFTeX();
-      return pdftex.compile(source_code);
-    }
+      return Promise.all(packages.map(pdftex.installPackage))
+        .then(function () {
+          return pdftex.compile(source_code);
+        });
+    };
 
     document.getElementById("compile").addEventListener("click", function (e) {
       var source_code = document.getElementById("input").value;
