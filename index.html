@@ -33,6 +33,7 @@ Hello, LaTeX!
     document.getElementById("compile").addEventListener("click", function (e) {
       var source_code = document.getElementById("input").value;
       compile(source_code).then(function (pdf) {
+        // test
         // PDF compilation completed
         // Use 'pdf' variable as desired
         console.log(pdf);
