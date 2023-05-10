@@ -3095,6 +3095,7 @@ colortbl
 dvipdfmx-def
 etex-pkg
 fancybox
+tikz
 fancyhdr
 fix2col
 geometry
@@ -3367,6 +3368,8 @@ etex.sty
 ./tex/latex/fancybox:
 fancybox.sty
 
+./tex/latex/tikz:
+tikz.sty
 
 ./tex/latex/fancyhdr:
 extramarks.sty
