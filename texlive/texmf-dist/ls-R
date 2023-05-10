@@ -437,6 +437,9 @@ README
 fancyhdr.pdf
 fancyhdr.tex
 
+./doc/latex/fancybox:
+fancybox.sty
+
 ./doc/latex/fix2col:
 README
 fix2col.pdf

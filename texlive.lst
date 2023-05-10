@@ -124,6 +124,7 @@
 /texmf-dist/tex/latex/amscls/.
 /texmf-dist/tex/latex/pdftex-def/.
 /texmf-dist/tex/latex/fancyhdr/.
+/texmf-dist/tex/latex/fancybox/.
 /texmf-dist/tex/latex/etex-pkg/.
 /texmf-dist/tex/luatex/.
 /texmf-dist/tex/luatex/hyph-utf8/.
@@ -2220,6 +2221,7 @@
 /texmf-dist/tex/latex/fancyhdr/extramarks.sty
 /texmf-dist/tex/latex/fancyhdr/fancyheadings.sty
 /texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
+/texmf-dist/tex/latex/fancybox/fancybox.sty
 /texmf-dist/tex/latex/etex-pkg/etex.sty
 /texmf-dist/tex/luatex/hyph-utf8/etex.src
 /texmf-dist/tex/luatex/hyph-utf8/luatex-hyphen.lua
