@@ -62,7 +62,6 @@
 /texmf-dist/tex/latex/mflogo/.
 /texmf-dist/tex/latex/fancyhdr/.
 /texmf-dist/tex/latex/fancybox/.
-/texmf-dist/tex/latex/tikz/.
 /texmf-dist/tex/latex/pdftex-def/.
 /texmf-dist/tex/latex/pslatex/.
 /texmf-dist/tex/latex/url/.
@@ -1577,7 +1576,6 @@
 /texmf-dist/tex/latex/mflogo/ulogo.fd
 /texmf-dist/tex/latex/mflogo/mflogo.sty
 /texmf-dist/tex/latex/fancybox/fancybox.sty
-/texmf-dist/tex/latex/tikz/tikz.sty
 /texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
 /texmf-dist/tex/latex/fancyhdr/extramarks.sty
 /texmf-dist/tex/latex/fancyhdr/fancyheadings.sty
