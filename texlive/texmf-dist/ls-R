@@ -3370,6 +3370,11 @@ fancybox.sty
 
 ./tex/latex/tikz:
 tikz.sty
+pgf.sty
+pgffor.sty
+pgfrcs.sty
+pgfkeys.sty
+pgfmath.sty
 
 ./tex/latex/fancyhdr:
 extramarks.sty

@@ -1578,6 +1578,12 @@
 /texmf-dist/tex/latex/mflogo/mflogo.sty
 /texmf-dist/tex/latex/fancybox/fancybox.sty
 /texmf-dist/tex/latex/tikz/tikz.sty
+/texmf-dist/tex/latex/tikz/pgf.sty
+/texmf-dist/tex/latex/tikz/pgffor.sty
+/texmf-dist/tex/latex/tikz/pgfkeys.sty
+/texmf-dist/tex/latex/tikz/pgfmath.sty
+/texmf-dist/tex/latex/tikz/pgfrcs.sty
+
 /texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
 /texmf-dist/tex/latex/fancyhdr/extramarks.sty
 /texmf-dist/tex/latex/fancyhdr/fancyheadings.sty
