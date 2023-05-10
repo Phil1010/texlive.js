@@ -49,7 +49,6 @@
 /texmf-dist/tex/latex/amscls/.
 /texmf-dist/tex/latex/colortbl/.
 /texmf-dist/tex/latex/dvipdfmx-def/.
-/texmf-dist/tex/latex/fancybox/.
 /texmf-dist/tex/latex/oberdiek/.
 /texmf-dist/tex/latex/pspicture/.
 /texmf-dist/tex/latex/natbib/.
@@ -62,6 +61,7 @@
 /texmf-dist/tex/latex/ae/.
 /texmf-dist/tex/latex/mflogo/.
 /texmf-dist/tex/latex/fancyhdr/.
+/texmf-dist/tex/latex/fancybox/.
 /texmf-dist/tex/latex/pdftex-def/.
 /texmf-dist/tex/latex/pslatex/.
 /texmf-dist/tex/latex/url/.
@@ -1198,7 +1198,6 @@
 /texmf-dist/tex/latex/amscls/amsart.cls
 /texmf-dist/tex/latex/colortbl/colortbl.sty
 /texmf-dist/tex/latex/dvipdfmx-def/dvipdfmx.def
-/texmf-dist/tex/latex/fancybox/fancybox.sty
 /texmf-dist/tex/latex/oberdiek/askinclude.sty
 /texmf-dist/tex/latex/oberdiek/kvoptions.sty
 /texmf-dist/tex/latex/oberdiek/scrindex.sty
@@ -1576,6 +1575,7 @@
 /texmf-dist/tex/latex/ae/ot1aer.fd
 /texmf-dist/tex/latex/mflogo/ulogo.fd
 /texmf-dist/tex/latex/mflogo/mflogo.sty
+/texmf-dist/tex/latex/fancybox/fancybox.sty
 /texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
 /texmf-dist/tex/latex/fancyhdr/extramarks.sty
 /texmf-dist/tex/latex/fancyhdr/fancyheadings.sty

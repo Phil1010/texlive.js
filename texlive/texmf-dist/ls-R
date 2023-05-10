@@ -284,6 +284,7 @@ colortbl
 dvipdfmx-def
 etex-pkg
 fancyhdr
+fancybox
 fix2col
 geometry
 graphics
@@ -4242,6 +4243,7 @@ colortbl
 dvipdfmx-def
 etex-pkg
 fancyhdr
+fancybox
 fix2col
 geometry
 graphics
@@ -4514,6 +4516,9 @@ etex.sty
 extramarks.sty
 fancyhdr.sty
 fancyheadings.sty
+
+./tex/latex/fancybox:
+fancybox.sty
 
 ./tex/latex/fix2col:
 fix2col.sty
