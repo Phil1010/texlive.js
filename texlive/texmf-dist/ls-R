@@ -2387,6 +2387,9 @@ xebabel.def
 ./tex/generic/babel-english:
 english.ldf
 
+./tex/generic/babel-french:
+french.ldf
+
 ./tex/generic/bibtex:
 apalike.sty
 apalike.tex
@@ -3375,6 +3378,7 @@ pgffor.sty
 pgfrcs.sty
 pgfkeys.sty
 pgfmath.sty
+pgfutil-common.tex
 
 ./tex/latex/fancyhdr:
 extramarks.sty

@@ -1583,6 +1583,7 @@
 /texmf-dist/tex/latex/tikz/pgfkeys.sty
 /texmf-dist/tex/latex/tikz/pgfmath.sty
 /texmf-dist/tex/latex/tikz/pgfrcs.sty
+/texmf-dist/tex/latex/tikz/pgfutil-common.tex
 
 /texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
 /texmf-dist/tex/latex/fancyhdr/extramarks.sty

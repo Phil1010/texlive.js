@@ -2421,6 +2421,8 @@ xebabel.def
 
 ./texlive/texmf-dist/tex/generic/babel-english:
 english.ldf
+./texlive/texmf-dist/tex/generic/babel-french:
+french.ldf
 
 ./texlive/texmf-dist/tex/generic/bibtex:
 apalike.sty
