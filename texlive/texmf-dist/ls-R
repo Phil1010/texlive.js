@@ -3383,6 +3383,9 @@ pgfutil-common.tex
 pgfrcs.code.tex
 pgfcore.sty
 pgfsys.sty
+pgfsys.code.tex
+pgfsyssoftpath.code.tex
+pgfsysprotocol.code.tex
 
 ./tex/latex/fancyhdr:
 extramarks.sty

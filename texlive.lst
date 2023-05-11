@@ -1588,7 +1588,9 @@
 /texmf-dist/tex/latex/tikz/pgfrcs.code.tex
 /texmf-dist/tex/latex/tikz/pgfcore.sty
 /texmf-dist/tex/latex/tikz/pgfsys.sty
-
+/texmf-dist/tex/latex/tikz/pgfsys.code.tex
+/texmf-dist/tex/latex/tikz/pgfsyssoftpath.code.tex
+/texmf-dist/tex/latex/tikz/pgfsysprotocol.code.tex
 
 /texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
 /texmf-dist/tex/latex/fancyhdr/extramarks.sty
