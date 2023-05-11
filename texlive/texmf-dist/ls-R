@@ -3381,6 +3381,7 @@ pgfkeys.sty
 pgfmath.sty
 pgfutil-common.tex
 pgfrcs.code.tex
+pgfcore.sty
 
 ./tex/latex/fancyhdr:
 extramarks.sty
